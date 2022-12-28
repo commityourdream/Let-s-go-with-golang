@@ -4,8 +4,24 @@ Getting Started with Golang
 
 To execute .go file [ go run main.go]
 
+To create and enter the project directory [go mod init]
 
-go mod init
+How To Build and Install Go Program?
+Step 1:  Create a program main.go and initialize the go.mod  file
 
-Build for windows, linux and mac
-GOOS="linux" go build
+go mod init app
+
+Step 2: Build the program
+
+go build
+
+Step 3:Run the executable, On Unix systems
+
+
+./app
+
+On windows,
+
+app.exe
+
+
