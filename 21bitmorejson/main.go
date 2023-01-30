@@ -16,7 +16,6 @@ type course struct {
 func main() {
 	EncodeJson()
 	decodeJson()
-
 }
 
 func EncodeJson() {
